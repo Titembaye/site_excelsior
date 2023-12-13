@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="{% static 'img/health.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 ">
+                <p class="lead" style="text-align: justify !important;">
+                    Votre santé est une priorité, et notre assurance santé est conçue pour vous offrir
+                    une couverture complète. Des consultations médicales aux frais d'hospitalisation, nous
+                    nous engageons à vous fournir une protection fiable pour répondre à vos besoins de santé uniques.
+                    Avec des plans flexibles et des avantages adaptés, nous vous accompagnons dans chaque étape de votre
+                    parcours de soins.
+                </p>
+                <p class="lead" style="text-align: justify !important;">
+                Explorez nos solutions d'assurance santé pour comprendre comment nous pouvons
+                    contribuer à votre bien-être et à celui de votre famille. Pour en savoir plus sur nos offres et personnaliser
+                    votre couverture, découvrez l'ensemble de nos solutions d'assurance santé.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

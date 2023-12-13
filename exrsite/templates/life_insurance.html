@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="{% static 'img/life.png' %}" alt="" class="img-fluid">
+            </div>
+            <div class="col-lg-6 ">
+                <p class="lead" style="text-align: justify !important;">
+                    Parce que la vie est imprévisible, notre assurance vie vous offre la tranquillité d'esprit
+                    en assurant une protection financière pour vos proches en cas de besoin. Avec des options
+                    flexibles et adaptées à vos besoins spécifiques, nous sommes là pour vous accompagner tout au
+                    long de votre parcours. Découvrez comment notre assurance vie peut être un pilier essentiel dans
+                    la construction d'un avenir financier solide.
+                </p>
+                <p class="lead" style="text-align: justify !important;">
+                Pour en savoir plus sur nos offres et
+                personnaliser votre couverture, explorez notre gamme complète de solutions d'assurance vie.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
